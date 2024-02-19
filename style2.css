@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -5,31 +6,26 @@ body {
     background-color: #f4f4f4;
     color: #333;
 }
-
 header {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background-color: #007bff;
-    color: #fff;
+    color: #ffffff;
+    width: 100%;
+    top: 0;
+    left: 100;
+
 }
 
-section {
-    margin-bottom: 30px;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-h1, h2, h3 {
-    color: #007bff;
-}
 
-h2 {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-}
-
-p {
-    margin-bottom: 10px;
-}
 
 ul {
     list-style-type: none;
@@ -37,18 +33,153 @@ ul {
 }
 
 ul li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
-.education, .experience {
+
+.about {
     margin-bottom: 30px;
 }
+
+.about h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+
+.skills {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills li {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff;
+    transition: background-color 0.3s;
+}
+
+.skills li:hover {
+    background-color: #f1f1f1;
+}
+
+
+.education {
+    margin-bottom: 30px;
+}
+
+.education h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.education p {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.experience {
+    margin-bottom: 30px;
+}
+
+.experience h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.experience p {
+    margin-bottom: 10px;
+}
+
+.experience ul {
+    padding: 0;
+}
+
+.experience li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff;
+}
+
+.experience li:last-child {
+    margin-bottom: 0;
+}
+
+.experience li:hover {
+    background-color: #f1f1f1;
+}
+
+
+.projects {
+    margin-bottom: 30px;
+}
+
+.projects h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+}
+
+.projects ul {
+    padding: 0;
+}
+
+.projects li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #007bff;
+}
+
+.projects li:last-child {
+    margin-bottom: 0;
+}
+
+.projects li:hover {
+    background-color: #f1f1f1;
+}
+
 
 footer {
     text-align: center;
     padding: 20px;
     background-color: #333;
     color: #fff;
+    margin-top: 30px;
 }
 
 .footer-contact {
@@ -61,6 +192,7 @@ footer {
 
 .footer-social {
     margin-top: 20px;
+    text-align: center;
 }
 
 .footer-social a {
@@ -68,8 +200,11 @@ footer {
     margin: 0 10px;
     color: #fff;
     text-decoration: none;
+    background-color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-.footer-social i {
-    font-size: 20px;
+.footer-social a:hover {
+    background-color: #0056b3;
 }
